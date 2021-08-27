@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro!</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="centro">
+            <h1>CRONOMETRO</h1>
+            <p> Es simple el uso del programa</p>
+            
+            <div class="controles">
+                <button class="btn btn-primario" onclick="togglePause();">Pausa / Reproducir</button>
+                <button class="btn btn-secundario" onclick="reset();">Reiniciar</button>
+            </div>
+
+            <div class="cronometro">
+                <span id="tiempo-horas">00</span>H
+                <span id="tiempo-minutos">00</span>M
+                <span id="tiempo-segundos">00</span>S
+                (<span id="tiempo-miliseg">00</span>CS)
+            </div>
+        </div>
+    </div>
+
+    <script src="javscript/main.js"></script>
+</body>
+</html>
