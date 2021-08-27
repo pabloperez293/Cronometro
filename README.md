@@ -1,0 +1,2 @@
+# Cronometro
+Faltan algunos detalles
